@@ -147,11 +147,9 @@ transition: 0.4s ease-in-out;
     background: linear-gradient(to bottom, #ffffff, #f7f8fa);
   }
 
-  @media screen and (min-width:992px){
-   .about-us-section{
-    padding-bottom: 150px !important;
-    padding-top: 150px !important;
-   }
+  .about-us-section .row {
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .about-image img {
@@ -200,7 +198,26 @@ transition: 0.4s ease-in-out;
   }
   
   /* Responsive Design */
+  @media screen and (min-width: 992px){
+    .about-us-section{
+     padding-bottom: 150px !important;
+     padding-top: 150px !important;
+    }
+   }
+
+   @media screen and (max-width: 992px) {
+    .about-us-section .row {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
+
+    .about-us-section .col-lg-6 {
+      margin-top: 0 !important;
+    }
+   }
+  
   @media (max-width: 768px) {
+
     .about-image {
       text-align: center;
       margin-bottom: 20px;
@@ -220,7 +237,7 @@ transition: 0.4s ease-in-out;
       padding: 8px 16px;
     }
   }
-  
+
 /* End About Us Section CSS */
 
 
