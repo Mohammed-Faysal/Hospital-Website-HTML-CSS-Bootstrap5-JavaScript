@@ -441,7 +441,8 @@ transition: 0.4s ease-in-out;
     font-family: 'Arial', sans-serif;
   }
   .appointment-form {
-    border: 1px solid #ddd;
+    border: 1px solid #00a7d2;
+    font-family: 'Poppins', sans-serif;
   }
   .appointment-form .form-control, 
   .appointment-form .form-select {
@@ -586,6 +587,10 @@ transition: 0.4s ease-in-out;
 /* Start Footer Section CSS */
   footer i{
     font-size: 18px;
+  }
+
+  .footer-title{
+    font-size: 28px;
   }
 
   footer li{
