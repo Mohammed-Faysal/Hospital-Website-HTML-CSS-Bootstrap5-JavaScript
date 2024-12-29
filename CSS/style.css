@@ -582,7 +582,9 @@ transition: 0.4s ease-in-out;
   background: #f8f9fa;
 }
 
-  
+.contact-section button{
+  font-size: 17px;
+}
 
 /* Start Footer Section CSS */
   footer i{
